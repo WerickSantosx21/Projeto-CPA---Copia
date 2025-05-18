@@ -63,50 +63,69 @@
     padding: 5rem;
     font-size: 50px;
   }
-  *{
-    padding: 0%;
-    margin: 0%;
-}
-
- /* Cabeçalho*/
-
-.cabecalho{
-    background-color: rgb(211, 224, 220);
-    padding: 2% 0% 0% 5%;
-    height: 100px;
-}
-
-.cabecalho__menu{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.cabecalho__menu__link{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-
-/* Conteúdo Principal*/
-
-.apresentacao {
-    margin-top: 85px;
-}
-
-.div__apresentacao{
-    background-color: rgb(187, 240, 240);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-    margin: 1em;
-    padding: 1em;
-    display: flex;
-}
-
-.carroselExample{
+  .slider .carousel-item img {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 900px; /* Define uma altura fixa */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
 }
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.curso-box {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.curso-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.curso-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.curso-box h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.curso-box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.botao-saiba-mais {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.botao-saiba-mais:hover {
+    background-color: #0056b3;
+}
+body{
+  background-image: url(./img/bodysite.png);
+}
+

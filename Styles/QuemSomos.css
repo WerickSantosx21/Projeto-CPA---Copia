@@ -59,6 +59,18 @@ main {
     color: var(--color-5); 
 }
 
+
+/* ===========================
+   Banner
+=========================== */
+.banner {
+    height: 100vh;
+    background-image: url(../assets/Prancheta_1[1].png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #div_foto1 {
     width: 100vw;
     height: 400px;

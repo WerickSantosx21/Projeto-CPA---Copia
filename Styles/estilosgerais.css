@@ -181,3 +181,6 @@ a:hover {
     color: var(--color-5);
     text-decoration: underline;
 }
+body {
+    background-image: url(../assets/bodysite.jpg);
+}
